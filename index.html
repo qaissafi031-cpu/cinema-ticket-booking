@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
 
  <meta charset="UTF-8">
  <title> CinemaZone - Home</title>
  <style>
+ 
+
+
+nav {
+    background-color: #111111;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: red;
+}
+
 
     body
     {        background-color: black;
@@ -38,9 +58,34 @@
     color: red;
     font-style:oblique;
 }
+
+
+
+
+
+
+input:hover {
+    box-shadow: 0 0 25px red;
+    transform: scale(1.05);
+}
+
+
+
+img:hover {
+    box-shadow: 0 0 25px red;
+    transform: scale(1.05);
+}
  </style>
 </head>
 <body>
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="movies.html">Movies</a>
+    <a href="showtimes.html">Showtimes</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
 
 <div class="cinema">
     <h1 class="cinemazone">Welcome to </h1>
@@ -49,9 +94,28 @@
     <p>Experience the magic of movies. Discover the latest films,<br> explore showtimes, and book your tickets easily.</p>
     <br><br><br>    <br><br><br>
 
-    <input style="font-size: 50px; background-color: red; color: white;"   type="button" value="go to movies" onclick="">
+    <input style="font-size: 50px; background-color: red; color: white;border-radius: 35px;"   type="button" value="go to movies" onclick="">
 </div>  
   <br><br>
 <h2 class="NowShowing">Now Showing</h2>
+<br><br>
+
+<table style="width: 100%;">
+    <tr>
+        <td style="text-align: left;">
+            <img src="img/q1.png" width="400" style="border-radius: 35px;">
+        </td>
+
+        <td style="text-align: center;">
+            <a href="https://chatgpt.com/c/6b06eceb-d3a0-83ed-b2cf-46f5a0c2fa0c">
+            <img src="img/q2.png" width="400" style="border-radius: 35px;">
+        </a>
+        </td>
+
+        <td style="text-align: right;">
+            <img src="img/q3.png" width="400" style="border-radius: 35px;">
+        </td>
+    </tr>
+</table>
 </body>
 </html>
