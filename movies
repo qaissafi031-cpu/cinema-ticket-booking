@@ -1,1 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    *{
+        background-color: black;
+    }
+    .parg{
+        color:white;
+        text-align:center; 
+        font:18px Arial,Helvetica,sans-serif ;
+
+    }
+   
+    .title{
+       
+        text-align: center;
+        color: white;
+         font:40px bold  ;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    }
+    .parg2{
+        font-size: 20px ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        background-color: transparent;
+
+
+
+    }
+   .card{
+border:1px ;
+border-radius: 10px;
+padding:10px;
+color:aliceblue;
+margin: 15px;
+background-color: rgba(36, 35, 35, 0.255);
+margin-top: 10px;
+
+
+
+
+    }
+    .card img {
+
+      width: 100%;
+        object-fit: cover;
+        
+    }
+    .button{
+        background-color: rgb(89, 5, 5) ;
+        color: aliceblue; 
+        border-radius: 20px;
+        border: none;
+        font-size:medium;
+        margin-bottom: 15px;
+    }
+    .pos{
+        position: relative;
+        
+    }
+    .pos h1{
+        position: absolute;
+        right: 50%;
+        top: 100px;
+        color: white;
+        background-color: transparent;
+        
+    }
+    .pos p{
+        position: absolute;
+        color: white;
+        top: 160px;
+        left: 30%;
+         background-color: transparent;
+    }
+    p,h3{
+        background-color: transparent;
+    }
+</style>
+    </head>
+
+    <body>
+     <nav style="color:white">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="movies.html">Movies</a>
+        <a href="showtimes.html">Showtimes</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+        
+<div class="pos">
+        <img src="aa6faffc10358b4e.png" width="100%"  height="300px">
+<h1 class="title">Movies</h1><br>
+<p class="parg">Explore the latest movies,read details ,and watch trailers</p>
+</div>
+
+<table>
+    <tr>
+ <td style="text-align:center;">
+<div>
+
+    <img src="image film1.png"  alt="oppenheimer" width="400" height="700" style="border-radius:35px ;">
+    <h3>oppenheimer</h3>
+    <p>Drama . 3h 0m</p>
+    <p class="parg2">The story of the scintist behind
+         the atomic bomb</p>
+    <button class="button">watch trailer</button>
+</div>
+</td>
+
+ <td style="text-align:center;">
+<div class="card">
+<img src="image film 2.png"  alt="Dune:part two" width="200px" >
+<h3>Dune:part two</h3>
+<p>Sci-Fi . 2h 46m</p>
+<p class="parg2">Pual Atreides unites with the Fermen 
+    to face a greater threat </p>
+<button class="button">watch trailer</button>
+</div>
+</td>
+
+<td style="text-align:center;">
+<div class="card">
+    <img src="image film 3.png" alt="inside out 2" width="200px">
+    <h3>inside out  2</h3>
+    <p>Animation . 1h 36m</p>
+    <p class="parg2">Riley faces new emotions in a fun 
+        and heartwarming advanture</p>
+    <button class="button">watch trailer</button>
+
+</div>
+</td>
+</tr>
+</table>
+ 
+
+    </body>
+
+</html>
 
