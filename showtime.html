@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+        <title>Showtimes</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; color: white; background-color: black; font-size: 30px;">
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="movies.html">Movies</a>
+        <a href="showtimes.html">Showtimes</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <div class="background-img">
+            <h1 class="header-red">Showtimes</h1>
+            <p>check today's movie schedule and choose your preffered time</p>
+        </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="left">
+                <div class="form-box">
+                    <div class="dropdown">
+                    <label for="movies">Select a Movie:</label>
+                        <br/>
+                            <select class="select" name="movies" id="movies">
+                                <option value="Oppenheimer">Oppenheimer</option>
+                                <option value="Dune: Part Two">Dune: Part Two</option>
+                                <option value="Inside Out">Inside Out</option>
+                            </select>
+                    </div>
+                    <div class="dropdown">
+                        <label for="Date">Select a Date:</label>
+                            <br/>
+                                <select class="select" name="Date" id="Date">
+                                    <option value="Nov-26">Nov 26, 2026</option>
+                                    <option value="Nov27">Nov 27,2026</option>
+                                    <option value="Nov-28">Nov 28,2026</option>
+                                </select>
+                    </div>
+                    
+                </div>
+                <div class="buttons">
+                    <button>12:00 pm</button>
+                    <button>3:00 pm</button>
+                    <button>6:00 pm</button>
+                    <button>9:00 pm</button>
+                </div>
+            </div>
+            <div class="right">
+               
+            </div>
+        </div>
+    </div>    
+        <style>
+    .container-fluid{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .header-red{
+        margin: 0;
+        font-size: 48px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .row{
+        display: flex;
+        gap: 32px;
+        margin-top: 16px;
+    }
+    nav {
+    background-color: #111111;
+    text-align: center;
+    padding: 20px;
+}
+.select{
+    background-color: #333333;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 8px 35px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    padding: 25px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    
+}
+.dropdown{
+    margin-bottom: 30px;
+}
+.buttons{
+    margin-top: 30px;
+}
+button{
+    background-color: #e50914;
+    color: white;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: red;
+}
+.background-img{
+    text-align: center;
+    background-image: url(red-curtains.jpg);
+    background-position: 50%;
+    background-size: cover;
+    padding: 28px;
+}
+</style>
+</html>
