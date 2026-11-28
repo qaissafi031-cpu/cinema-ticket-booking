@@ -40,7 +40,7 @@
                                     <option value="Nov-28">Nov 28,2026</option>
                                 </select>
                     </div>
-                    
+                   
                 </div>
                 <div class="buttons">
                     <button>12:00 pm</button>
@@ -49,9 +49,96 @@
                     <button>9:00 pm</button>
                 </div>
             </div>
-            <div class="right">
-               
+    <div class="right">
+        <div class="seats">
+                <b>SELECT YOUR SEATS</b>
+                <div class="seats-row">
+                    <div class="seats-label">
+                        <p>A</p>
+                    </div>
+                    <div class="seats-checkbox">
+                        <input type="checkbox" checked disabled>
+                        <input type="checkbox" checked disabled>
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox" checked disabled>
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox" checked disabled>
+                        <input type="checkbox">
+                        <input type="checkbox">
+                    </div>
+                </div>
+                <div class="seats-row">
+                    <div class="seats-label">
+                        <p>B</p>
+                    </div>
+                    <div class="seats-checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox" checked disabled>
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox" >
+                        <input type="checkbox" checked disabled>
+                        <input type="checkbox" checked disabled>
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                    </div>
+                </div>
+                <div class="seats-row">
+                    <div class="seats-label">
+                        <p>C</p>
+                    </div>
+                    <div class="seats-checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"checked disabled>
+                        <input type="checkbox"checked disabled>
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"checked disabled>
+                    </div>
+                </div>
+                <div class="seats-row">
+                    <div class="seats-label">
+                        <p>D</p>
+                    </div>
+                    <div class="seats-checkbox">
+                        <input type="checkbox" checked disabled>
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox" checked disabled>
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox" checked disabled>
+                        <input type="checkbox" checked disabled>
+                        <input type="checkbox">
+                    </div>
+                </div>
+                <div class="seats-row">
+                    <div class="seats-label">
+                        <p>E</p>
+                    </div>
+                    <div class="seats-checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox" checked disabled>
+                        <input type="checkbox" checked disabled>
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox" checked disabled>
+                    </div>
+                </div>
             </div>
+    </div>
         </div>
     </div>    
         <style>
@@ -72,6 +159,7 @@
         gap: 32px;
         margin-top: 16px;
     }
+
     nav {
     background-color: #111111;
     text-align: center;
@@ -95,8 +183,55 @@
     padding: 25px;
     border: 1px solid #333333;
     border-radius: 10px;
-    
 }
+
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    padding: 25px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+.seats{
+    font-size: 20px;
+}
+
+.seats-row{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.seats-label{
+    width: 10%;
+}
+
+.seats-checkbox{
+    width: 90%;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 40px;
+    height: 32px;
+    background: white;
+    border: 2px solid #444;
+    border-radius: 6px;
+    margin: 6px 4px;
+    cursor: pointer;
+  }
+  
+input[type="checkbox"]:checked {
+    background: #b30000;
+  }
+
+input[type="checkbox"]:disabled {
+    cursor: not-allowed;
+  }
+
 .dropdown{
     margin-bottom: 30px;
 }
